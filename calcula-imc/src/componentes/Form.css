@@ -1,6 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+
+}
+
 form{
     
     text-align: center;
+    align-items: center;
 }
 
 div{
@@ -8,24 +17,77 @@ div{
     justify-content: center;
     align-items: center;
     text-align: center;
-   
+    
 }
+
+h1{
+    color: #fff;
+    margin-top: 180px;
+    margin-bottom: 30px;
+}
+
 input{
+    display: block;
+    text-align: center;
     height: 30px;
-    margin-top: 300px;
-    margin-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
 
 }
 
 label{
+    
+    color: #fff;
     font-size: 20px;
-    margin-left: 20px;
     font-weight: bold;
-    font-family: Roboto, sans-serif;
     text-transform: uppercase;
 }
 
-.container{
+.container {
     margin-top: 30px;
     
 }
+
+button{
+    height: 30px;
+    width: 120px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    
+}
+
+p{
+    background-color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    height: 35px;
+    width: 300px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.b1{
+    margin-right:  10px;
+}
+
+#p1{
+    background-color:rgb(160, 27, 27);
+}
+#p2{
+    background-color:rgb(20, 20, 146);
+}
+#p3{
+    background-color:rgb(219, 219, 53);
+}
+#p4{
+    background-color:rgb(160, 27, 27);
+}
+
